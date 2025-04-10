@@ -1,8 +1,8 @@
 <style>
 
-table { 
-  width: 100%;
-  border-collapse: collapse;
+ table { 
+   width: 100%;
+   border-collapse: collapse;
   }
 
   th, td { 
@@ -16,17 +16,26 @@ table {
     color: white;
   }
 
-  h1 { color: darkblue; /* cor da titulo */}
+  h1 { 
+    color: darkblue; /* cor da titulo */
+  }
 
-  p { color: mediumpurple; /* cor da paragrafo */}
+  p { 
+    color: mediumpurple; /* cor da paragrafo */
+  }
 
-  td { color: #483D8B; /* cor do texto da tabela */}
+  td { 
+    color: #483D8B; /* cor do texto da tabela */
+  }
 
-  body { background-color: #E6E6FA; /* Define o fundo da pagina */}
+  body { 
+    background-color: #E6E6FA; /* Define o fundo da pagina */
+  }
 
-  title { background-color: #483D8B ;
-  border: 10px solid #191970 ;
-padding: 20px ;
-}
+  title {
+    background-color: #483D8B ;
+    border: 10px solid #191970 ;
+    padding: 20px ;
+  }
 
   </style>
