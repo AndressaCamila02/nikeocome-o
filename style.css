@@ -24,4 +24,9 @@ table {
 
   body { background-color: #E6E6FA; /* Define o fundo da pagina */}
 
+  title { background-color: #483D8B ;
+  border: 10px solid #191970 ;
+padding: 20px ;
+}
+
   </style>
