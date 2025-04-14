@@ -1,40 +1,53 @@
-<style>
 
- table { 
+
+table { 
    width: 100%;
    border-collapse: collapse;
-  }
+}
 
-  th, td { 
+th, td { 
     border: 2px solid #191970;
     padding: 8px;
     tex-align: center;
-  }
+}
 
-  th {
+th {
     background-color: teal;
     color: white;
-  }
+}
 
-  h1 { 
+h1 { 
     color: darkblue; /* cor da titulo */
-  }
+}
 
-  p { 
+p { 
     color: mediumpurple; /* cor da paragrafo */
-  }
+}
 
-  td { 
+td { 
     color: #483D8B; /* cor do texto da tabela */
-  }
+}
 
-  body { 
+body { 
     background-color: #E6E6FA; /* Define o fundo da pagina */
-  }
+}
 
-  title {
+footer{
+  background-color: #483D8B;
+  padding: 40px;
+}
+
+title {
     background-color: #483D8B ;
     border: 10px solid #191970 ;
     padding: 20px ;
-  }
-</style>
+}
+
+.titulo{
+    color: rgb(230, 213, 245), rgb(134, 67, 173);
+    font-weight: bold ;
+    font-size: 18px;
+    font-family: cursive;
+}
+
+
