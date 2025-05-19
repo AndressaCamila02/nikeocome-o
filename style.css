@@ -2,104 +2,114 @@
 table { 
   width: 100%;
   border-collapse: collapse;
-  }
+}
 
 th, td { 
-    border: 2px solid black;
-    padding: 8px;
-    tex-align: center;
-  }
+  border: 2px solid black;
+  padding: 8px;
+  text-align: center;
+}
 
 th {
-    background-color: teal;
-    color: white;
-  }
-
-
+  background-color: teal;
+  color: white;
+}
 
 h1 { color: #483D8B; /* cor da titulo */
-    font-family: comic sans ms;
-    font-size: 30px;
-    font-weight: bold;}
+  font-family: comic sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+}
 
 h2 { color: #483D8B; /* cor da titulo */   
-     font-family: comic sans ms;
-     font-size: 30px;
-     font-weight: bold;}
+  font-family: comic sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+}
 
-   
 p {
-    color: mediumpurple; /* cor da paragrafo */
-    font-family: comic sans ms;
-    font-size: 20px;
-    font-weight: bold;
-  }
+  color: mediumpurple; /* cor da paragrafo */
+  font-family: comic sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
 
 li{
-   color: #836FFF; /* cor da paragrafo */
-   font-family: comic sans ms;
-   font-size: 20px;
-   font-weight: bold;
- }
+  color: #836FFF; /* cor da paragrafo */
+  font-family: comic sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
 
 a{
-   color:#836FFf;
-   font-family: comic sans ms;
-   font-size: 20px;
-   font-weight: bold;
- }
+  color:#836FFf;
+  font-family: comic sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
 
 body { background-color: #E6E6FA; /* Define o fundo da pagina */}
 
 
 table { 
-   width: 100%;
-   border-collapse: collapse;
+  width: 100%;
+  border-collapse: collapse;
 }
 
 th, td { 
-    border: 2px solid #191970;
-    padding: 8px;
-    tex-align: center;
+  border: 2px solid #191970;
+  padding: 8px;
+  text-align: center;
 }
 
 th {
-    background-color: teal;
-    color: white;
+  background-color: teal;
+  color: white;
 }
 
 h1 { 
-    color: darkblue; /* cor da titulo */
+  color: darkblue; /* cor da titulo */
 }
 
 p { 
-    color: mediumpurple; /* cor da paragrafo */
+  color: mediumpurple; /* cor da paragrafo */
 }
 
 td { 
-    color: #483D8B; /* cor do texto da tabela */
+  color: #483D8B; /* cor do texto da tabela */
 }
 
 body { 
-    background-color: #E6E6FA; /* Define o fundo da pagina */
+  background-color: #E6E6FA; /* Define o fundo da pagina */
 }
 
 footer{
-  background-color: #bc84eb;
+ background-color: #bc84eb;
   padding: 40px;
 }
 
 title {
-    background-color: #483D8B ;
-    border: 10px solid #191970 ;
-    padding: 20px ;
+  background-color: #483D8B ;
+  border: 10px solid #191970 ;
+  padding: 20px ;
 }
 
 .titulo{
-    color: rgb(230, 213, 245), rgb(134, 67, 173);
-    font-weight: bold ;
-    font-size: 18px;
-    font-family: cursive;
+  color: rgb(230, 213, 245), rgb(134, 67, 173);
+  font-weight: bold ;
+  font-size: 18px;
+  font-family: cursive;
 }
 
+/*--- ESTILO PARA O FORMULÁRIO ---*/
+
+.form-container {
+  max-width: 600px;
+  margin: 30px auto;
+  background-color: #e6c7ff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 12px #291f3a(0, 0, 0, 0.1);
+  border: 1px solid #eeddff;
+}
 
