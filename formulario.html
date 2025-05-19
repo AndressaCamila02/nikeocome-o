@@ -18,10 +18,44 @@
         <label for="produto"> o que deseja enomendar?:</label>
         <select id="nome" name="nome" required>
             <option value="">Selecione uma opção</option>
-            <option value=""
+            <option value="história">Saber a História</option>
+            <option value="preços">Tabela de Preços</option>
+            <option value="produtos">Proutos</option>
+            <option value="modelos">Modelos</option>
+            <option value="outro">Outro</option>
+        </select>
 
+        <!-- Descrição do Produto de Modelo -->
+        <label for="Descrição">Fale mais:</label>
+        <textarea id="Descrição" name="descrição" rows="5" required></textarea>
 
+        <!-- Forma e Pagamento -->
+        <label for="pagamento">Forma de Pagamento:</label>
+        <select id="pagamento" name="pagamento" required>
+            <option value="pix">Pix</option>
+            <option value="cartão">Cartão de Crédito</option>
+            <option value="cartão">Cartão de Debito</option>
+            <option value="boleto">Boleto</option>
+            <option value="dinheiro">Dinheiro na Entrega</option>
+        </select>
+
+        <!-- Date e Hora -->
+        <label for="data">Data da Encomenda:</label>
+        <input type="date" id="data" name="data" required>
+
+        <label for="hora">Horário Desejado:</label>
+        <input type="time" id="hora" name="hora" required>
+
+        <!-- Entrega ou Retirada-->
+        <label for="entrega">Como Deseja Receber?:</label>
+        <select id="entrega" name="entrga" required>
+          <option value="">Selecione uma opção</option>
+          <option value="entregar">Entregar na sua Casa</option>
+          <option value="retirar">Retirar na Loja</option>
+        </select>
+        
+        <!-- Botão de Envio -->
+        <button type="submit">Concluido</button>
 
     </form>
-
-
+</div>
