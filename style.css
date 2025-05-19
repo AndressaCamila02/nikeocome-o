@@ -113,3 +113,13 @@ title {
   border: 1px solid #eeddff;
 }
 
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin-top: 15px;
+  font-weight: bold;
+  color: #31233a;
+}
