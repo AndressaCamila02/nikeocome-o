@@ -1,61 +1,68 @@
-<div class="form-container">
-    <h2> Faça sua encomenda </h2>
-    <form action="#" method="post">
-        <!-- Dados do Cliente -->
-        <label for="nome"> Nome:</label>
-        <input type="text" id="nome" name="nome" required>
 
-        <label for="endereço"> Endereço:</label>
-        <input type="text" id="endereço" name="endereço" required>
 
-        <label for="telefone"> Telefone:</label>
-        <input type="text" id="telefone" name="telefone" required>
+<body style="background-color: aliceblue;">
+<main>
+    <h1>Nossos Produtos aqui!</h1>
+   <div class="form-container">
+      <h2> Faça sua encomenda </h2>
+       <form action="#" method="post">
+         <!-- Dados do Cliente -->
+         <label for="nome"> Nome:</label>
+         <input type="text" id="nome" name="nome" required>
 
-        <label for="whatsapp"> Whatsapp:</label>
-        <input type="text" id="whatsapp" name="whatsapp" required>
+         <label for="endereço"> Endereço:</label>
+         <input type="text" id="endereço" name="endereço" required>
 
-        <!-- tipos de Produto -->
-        <label for="produto"> o que deseja enomendar?:</label>
-        <select id="nome" name="nome" required>
+         <label for="telefone"> Telefone:</label>
+         <input type="text" id="telefone" name="telefone" required>
+
+         <label for="whatsapp"> Whatsapp:</label>
+         <input type="text" id="whatsapp" name="whatsapp" required>
+
+         <!-- tipos de Produto -->
+         <label for="produto"> o que deseja enomendar?:</label>
+         <select id="nome" name="nome" required>
             <option value="">Selecione uma opção</option>
             <option value="história">Saber a História</option>
             <option value="preços">Tabela de Preços</option>
             <option value="produtos">Proutos</option>
             <option value="modelos">Modelos</option>
             <option value="outro">Outro</option>
-        </select>
+         </select>
 
-        <!-- Descrição do Produto de Modelo -->
-        <label for="Descrição">Fale mais:</label>
-        <textarea id="Descrição" name="descrição" rows="5" required></textarea>
+         <!-- Descrição do Produto de Modelo -->
+         <label for="Descrição">Fale mais:</label>
+         <textarea id="Descrição" name="descrição" rows="5" required></textarea>
 
-        <!-- Forma e Pagamento -->
-        <label for="pagamento">Forma de Pagamento:</label>
-        <select id="pagamento" name="pagamento" required>
+         <!-- Forma e Pagamento -->
+         <label for="pagamento">Forma de Pagamento:</label>
+         <select id="pagamento" name="pagamento" required>
             <option value="pix">Pix</option>
             <option value="cartão">Cartão de Crédito</option>
             <option value="cartão">Cartão de Debito</option>
             <option value="boleto">Boleto</option>
             <option value="dinheiro">Dinheiro na Entrega</option>
-        </select>
+         </select>
 
-        <!-- Date e Hora -->
-        <label for="data">Data da Encomenda:</label>
-        <input type="date" id="data" name="data" required>
+         <!-- Date e Hora -->
+          <label for="data">Data da Encomenda:</label>
+          <input type="date" id="data" name="data" required>
 
-        <label for="hora">Horário Desejado:</label>
-        <input type="time" id="hora" name="hora" required>
+          <label for="hora">Horário Desejado:</label>
+          <input type="time" id="hora" name="hora" required>
 
-        <!-- Entrega ou Retirada-->
-        <label for="entrega">Como Deseja Receber?:</label>
-        <select id="entrega" name="entrga" required>
-          <option value="">Selecione uma opção</option>
-          <option value="entregar">Entregar na sua Casa</option>
-          <option value="retirar">Retirar na Loja</option>
-        </select>
+         <!-- Entrega ou Retirada-->
+         <label for="entrega">Como Deseja Receber?:</label>
+          <select id="entrega" name="entrga" required>
+           <option value="">Selecione uma opção</option>
+           <option value="entregar">Entregar na sua Casa</option>
+           <option value="retirar">Retirar na Loja</option>
+           </select>
         
-        <!-- Botão de Envio -->
-        <button type="submit">Concluido</button>
+          <!-- Botão de Envio -->
+          <button type="submit">Concluido</button>
 
-    </form>
-</div>
+      </form>
+   </div>
+ </main>
+</body>
